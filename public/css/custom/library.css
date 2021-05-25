@@ -1,0 +1,180 @@
+
+.up {
+  transform: 
+    /* Magic Numbers */
+    translate(25px, 51px)
+    /* 45 is really 360 - 45 */
+    rotate(45deg);
+}
+
+td.rotate {
+  /* Something you can count on */
+  height: 140px;
+  white-space: nowrap;
+}
+
+td.rotate > div {
+  transform: 
+    /* Magic Numbers */
+    translate(25px, 51px)
+    /* 45 is really 360 - 45 */
+    rotate(90deg);
+  width: 20px;
+}
+td.rotate > div > span {
+text-align: center;
+}
+
+td.rotate45 {
+  /* Something you can count on */
+  height: 140px;
+  white-space: nowrap;
+}
+
+td.rotate45 > div {
+  transform: 
+    /* Magic Numbers */
+    translate(25px, 51px)
+    /* 45 is really 360 - 45 */
+    rotate(40deg);
+  width: 20px;
+}
+td.rotate45 > div > span {
+
+}
+
+
+
+.blink {
+  text-decoration: none;
+  color: maroon;
+}
+
+
+.shelf {
+display:flex;
+  height: 520px;
+  width: 100%;
+ 
+  
+}
+
+.shelf-book {
+  display:flex;
+
+min-width: 0;
+}
+
+.shelf-book span {
+  display:flex-inline-block;
+     width: 70px;
+      justify-content:center;
+      align-items:center;
+      flex-direction: row;
+      min-height: 10em;
+      line-height: 2em;
+  height: 480px;
+  font-size: 2.1em;
+  border: 1px solid;
+  -ms-writing-mode: bt-rl;
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+  -moz-writing-mode: vertical-rl;
+  white-space: nowrap;
+  padding: 5px;
+
+}
+
+
+.call {
+
+  height: 45px;
+  width: 100%;
+  
+}
+.call-book {
+
+display:flex;
+
+min-width: 0;
+
+
+
+}
+
+.call-book span {
+  
+ transform: 
+    /* Magic Numbers */
+    translate(25px, 51px)
+    /* 45 is really 360 - 45 */
+    rotate(30deg);
+    display:flex-inline-block;
+ width: 70px;
+  font-size: 1.5em;
+  white-space: nowrap;
+  text-align: left;
+  vertical-align: top;
+  padding: 5px;
+}
+
+.turn {
+
+display:inline-block;
+width: 60px;
+line-height: 55px;
+-ms-writing-mode: bt-rl;
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+  -moz-writing-mode: vertical-rl;
+  white-space: nowrap;
+  background-image: url('/assets/images/jspine.jpeg');
+  text-align: center;
+  height: 395px;
+  font-size: 1.8em;
+  padding-top: 4px;
+}
+
+.callnum {
+
+display:inline-block;
+transform: 
+    /* Magic Numbers */
+    translate(25px, 51px)
+    /* 45 is really 360 - 45 */
+    rotate(30deg);
+  white-space: nowrap;
+  text-align: left;
+  font-size: 1.5em;
+  width: 60px;
+  line-height: 60px;
+}
+
+.qanda {
+  margin-left: 100px;
+  min-height: 20px;
+  font-size: 1.3em;
+  width: 65%;
+}
+
+.qanda span {
+
+  min-height: 25px;
+  font-size: 1.1em;
+  width: 100%;
+  color: maroon;
+}
+
+.ask {
+
+}
+
+.response {
+  margin-left: 150px;
+}
+
+
+
+
+
+

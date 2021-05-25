@@ -1,0 +1,1 @@
+{{-- show book and the one on either side --}}

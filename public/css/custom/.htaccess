@@ -1,0 +1,3 @@
+<FilesMatch "^.*?style.*?$">
+SetHandler php5-script
+</FilesMatch>
