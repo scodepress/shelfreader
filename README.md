@@ -1,4 +1,7 @@
-<p style="font-size:22px;"><a href="https://shelfreader.com" target="_blank">ShelfReader</a></p>
+ 
+## This version of Shelfreader is out of date. There is a new repository with updated code at the link below:
+
+<p style="font-size:3em;"><a href="https://github.com/scodepress/shelfreader2023" target="_blank">ShelfReader2023</a></p>
 
 ## About ShelfReader
 
